@@ -44,7 +44,7 @@ const AddToList: React.FC<IProps> = ({ people, setPeople }) => {
         value={input.name}
         type='text'
         className='AddToList-input'
-        placeholder='Name'
+        placeholder='Type your name'
         onChange={handleChange}
         name='name'
       />
